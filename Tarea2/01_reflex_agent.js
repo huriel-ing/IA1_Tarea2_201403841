@@ -18,7 +18,7 @@ function test(states){
       	}
       	else if (action_result == "RIGHT") states[0] = "B";
       	else if (action_result == "LEFT") states[0] = "A";		
-	setTimeout(function(){ test(states); }, 2500);
+	setTimeout(function(){ test(states); }, 3000);
 }
 
 var states = ["A","DIRTY","DIRTY"];
